@@ -1,0 +1,239 @@
+                * {
+                    padding: 0;
+                    margin: 0;
+                }
+                
+                body {
+                    background: #8e6da56c;
+                }
+                
+                .wrap {
+                    background: #786288;
+                    width: 900px;
+                    margin: 40px auto 40px auto;
+                    padding: 40px;
+                    box-shadow: 0 0 8px rgba(0, 0, 0, 2);
+                }
+                
+                .wrap h2 {
+                    padding-bottom: 8px;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    border-bottom: 1px dotted #d1c6da5e;
+                }
+                
+                .wrap h2 span {
+                    font-size: 16px;
+                    color: rgba(203, 196, 196, 0.659);
+                }
+                
+                .wrap h2 span:before {
+                    content: "♡♡♡♡♡";
+                    margin-right: 6px;
+                }
+                
+                .wrap ul {
+                    list-style: none;
+                }
+                
+                .profile {
+                    overflow: hidden;
+                    padding: 30px;
+                    margin-bottom: 40px;
+                    background-color: rgba(240, 248, 255, 0.182);
+                }
+                
+                .profile .left {
+                    width: 73%;
+                    float: left;
+                }
+                
+                .profile .left img {
+                    width: 100%;
+                }
+                
+                .profile .right {
+                    margin-right: ;
+                    padding-left: 8px;
+                }
+                
+                .profile .right h1.name {
+                    color: aliceblue;
+                    font-size: 50px;
+                    margin-bottom: 10px;
+                    margin-right: 15 px;
+                    padding-top: 20px;
+                }
+                
+                .profile .right .info {
+                    font-size: 10px;
+                    margin-top: 30px;
+                }
+                
+                .profile .right .link {}
+                
+                .profile .right .link a {
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    opacity: 1;
+                    transition: ;
+                    opacity: 5s;
+                    -webkit-transition: opacity: 5;
+                    -moz-transition: opacity: 5;
+                    -ms-transition: opacity: 5;
+                    -o-transition: opacity: 5;
+                }
+                
+                .profile .right .link a:hover {
+                    opacity: .5;
+                }
+                
+                .profile .right .link a img {
+                    width: 24px;
+                    height: 24px;
+                }
+                
+                .profile .right .mail {
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+                
+                .profile .right .mail::before {
+                    content: "E";
+                    font-weight: bold;
+                    color: rgba(240, 248, 255, 0.26);
+                }
+                
+                .profile .right .mail a {
+                    font-size: 14px;
+                    color: rgba(240, 248, 255, 0.412);
+                }
+                
+                .profile .right .mail a:hover {
+                    text-decoration: none;
+                    .profile .right .phone
+                }
+                
+                .profile .right .phone::before {
+                    content: "P";
+                    font-weight: bold;
+                    color: rgba(240, 248, 255, 0.26);
+                }
+                
+                .profile .right .phone a {
+                    font-size: 10px;
+                    color: rgba(240, 248, 255, 0.412);
+                }
+                
+                .skill {
+                    overflow: hidden;
+                    margin-bottom: 40px;
+                }
+                
+                .skill ul {
+                    list-style: none;
+                }
+                
+                .skill ul li {
+                    width: 30%;
+                    float: left;
+                    margin-right: 5%;
+                    margin-bottom: 8px;
+                }
+                
+                .skill ul li::before {
+                    content: "❦";
+                    margin-right: 8px;
+                    color: rgba(244, 226, 144, 0.772);
+                }
+                
+                .skill ul li:nth-child(3n) {
+                    margin-right: 0;
+                }
+                
+                .skill ul li span {}
+                
+                .experience {
+                    overflow: hidden;
+                    margin-bottom: 40px
+                }
+                
+                .experience .leftB {
+                    float: left;
+                    width: 48%;
+                    margin-right: 3%;
+                    border-left: 2px solid #d0b6e3;
+                }
+                
+                .experience .rightB {
+                    float: left;
+                    width: 47%;
+                    border-left: 2px solid #d0b6e3;
+                }
+                
+                .experience ul {
+                    list-style: none;
+                }
+                
+                .experience ul li {
+                    margin-bottom: 16px;
+                    padding-left: 40px;
+                }
+                
+                .experience ul li::before {
+                    content: "❣";
+                    width: 8px;
+                    height: 8px;
+                }
+                
+                .experience ul li span {
+                    display: block;
+                    font-size: 12px;
+                    color: rgba(224, 184, 184, 0.485);
+                }
+                
+                .work {
+                    overflow: hidden;
+                }
+                
+                .work ul {}
+                
+                .work ul li {
+                    width: 32%;
+                    height: 200px;
+                    float: left;
+                    margin-right: 2%;
+                    margin-bottom: 16px;
+                    overflow: hidden;
+                }
+                
+                .work ul li:nth-child(3n) {
+                    margin-right: 0;
+                }
+                
+                .work ul li img {
+                    width: 100%;
+                    transform: scale(1);
+                    transition: all 1s;
+                }
+                
+                .work ul li:hover img {
+                    transform: scale(1.2);
+                }
+                
+                .work ul li .text {
+                    width: 20%;
+                    position: absolute;
+                    bottom: -40px;
+                    padding: 8px;
+                    box-sizing: border-box;
+                    background-color: #1f1427b4;
+                    color: aliceblue;
+                    transition: all 1s;
+                    text-align: center;
+                }
+                
+                .work ul li:hover .text {
+                    bottom: 0;
+                }
